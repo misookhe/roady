@@ -1,5 +1,5 @@
 {
-  "name": "roady-front",
+  "name": "roady",
   "private": true,
   "scripts": {
     "dev": "next dev",
