@@ -1,0 +1,133 @@
+:root {
+  --header-height: calc(var(--header-top-height) + var(--header-bottom-height));
+  --header-top-height: 4.5rem;
+  --header-bottom-height: 3rem;
+  --header-background: white;
+
+
+  --background: #f1f3f5;
+  --invalid-name: #e0e2e4;
+  --sub-text-2: #4b4b4b;
+  --sub-text-3: #939495;
+  --text: #1f2022;
+  --logo-color: #e46969;
+  --sub-text: #8a8b8d;
+
+  --base-container: 1200px;
+  --base-padding: 1.25rem;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'SF UI Display', '-apple-system', 'BlinkMacSystemFont', 'HelveticaNeue', 'Helvetica', 'Roboto', 'Apple SD Gothic Neo',
+    'AppleSDGothicNeo', 'NotosansKR', 'Arial', 'Malgun Gothic', '맑은고딕', 'Dotum', '돋움', 'sans-serif';
+}
+
+a {
+  text-decoration: none;
+  color: #939495;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  // overflow-y: none;
+}
+body {
+  background-color: var(--background);
+}
+#__next {
+  // overflow-y: scroll;
+  height: 100%;
+}
+
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+}
+
+.zipsa .swiper-wrapper {
+  align-items: start;
+}
+
+.swiper-container {
+  margin: auto;
+}
+// input[type="date"]
+// {
+//     // display:block;
+
+//     /* Solution 1 */
+//     //  -webkit-appearance: textfield;
+//     // -moz-appearance: textfield;
+//     // min-width: 96%;
+//     // background-image: url('/img/btn-dropdown.svg');
+//   //  background-size: 15px 10px;
+// }
+// input[type="date"]::-webkit-inner-spin-button,
+// input[type="date"]::-webkit-calendar-picker-indicator {
+//   // backgorund: transparent;
+//   // opacity:0;
+//     // display: none;
+//     // -webkit-appearance: none;
+//    background-image: url('/img/btn-dropdown.svg');
+//    background-size: 15px 10px;
+//    padding:0px;
+//    padding-left:10px;
+//    padding-top:10px;
+// }
+
+.on {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.inline {
+  display: inline;
+}
+.off {
+  display: none;
+}
+.no-select {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.react-toast-notifications__toast__content {
+  em {
+    color: #e36969;
+    font-style: inherit;
+    font-weight: inherit;
+  }
+  error {
+    color: #ee3131;
+  }
+}
